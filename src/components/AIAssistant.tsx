@@ -1,9 +1,8 @@
-
 import React, { useState } from 'react';
 import { Button } from '@/components/ui/button';
 import { Tabs, TabsContent, TabsList, TabsTrigger } from '@/components/ui/tabs';
 import { Textarea } from '@/components/ui/textarea';
-import { BookOpen, MessageSquare, Search, Translate, Mic, X } from 'lucide-react';
+import { BookOpen, MessageSquare, Search, Globe, Mic, X } from 'lucide-react';
 import { ScrollArea } from '@/components/ui/scroll-area';
 
 interface AIAssistantProps {
@@ -106,7 +105,7 @@ const AIAssistant: React.FC<AIAssistantProps> = ({ pageText, currentPage, totalP
               Ask
             </TabsTrigger>
             <TabsTrigger value="translate" className="flex-1">
-              <Translate className="h-4 w-4 mr-2" />
+              <Globe className="h-4 w-4 mr-2" />
               Translate
             </TabsTrigger>
           </TabsList>

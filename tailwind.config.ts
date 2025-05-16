@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -61,7 +62,16 @@ export default {
 					'accent-foreground': 'hsl(var(--sidebar-accent-foreground))',
 					border: 'hsl(var(--sidebar-border))',
 					ring: 'hsl(var(--sidebar-ring))'
-				}
+				},
+				// Custom PDF reader colors
+				"pdf-primary": "#9b87f5",
+				"pdf-dark": "#1A1F2C",
+				"pdf-light": "#F1F0FB",
+				"pdf-highlight-yellow": "#FEF7CD",
+				"pdf-highlight-green": "#F2FCE2",
+				"pdf-highlight-orange": "#FEC6A1",
+				"pdf-highlight-purple": "#E5DEFF",
+				"pdf-highlight-pink": "#FFDEE2",
 			},
 			borderRadius: {
 				lg: 'var(--radius)',
